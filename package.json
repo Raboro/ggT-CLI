@@ -5,7 +5,7 @@
   "description": "calculate the ggT of values via CLI",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint src"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/Raboro/ggT-CLI/issues"
   },
-  "homepage": "https://github.com/Raboro/ggT-CLI#readme"
+  "homepage": "https://github.com/Raboro/ggT-CLI#readme",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
