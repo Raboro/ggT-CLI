@@ -1,5 +1,5 @@
 {
-  "name": "ggt",
+  "name": "@raboro/ggt",
   "bin": "src/index.js",
   "version": "1.0.0",
   "description": "calculate the ggT of values via CLI",
