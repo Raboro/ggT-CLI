@@ -1,1 +1,5 @@
-console.log("Hello World")
+#! /usr/bin/env node
+
+"use strict"
+
+console.log("ggt")
