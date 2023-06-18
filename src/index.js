@@ -14,4 +14,20 @@ const options = yargs
     .command("$0 [v..]", "values for ggt calculation")
     .argv;
 
-console.log(options.v);
+console.log(calcGGT(options.v));
+
+function calcGGT(...values) {
+    values = values[0]
+    let ggt = values[0];
+    for (const value of values) {
+        ggt = ggT(ggt, value);
+    }
+    return ggt;
+}
+
+function ggT(a, b) {
+    while (b !== 0) {
+        [a, b] = [b, a % b];
+    }
+    return a;
+}
