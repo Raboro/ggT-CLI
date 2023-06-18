@@ -1,23 +1,23 @@
 #! /usr/bin/env node
 
-"use strict"
+'use strict';
 
 const yargs = require('yargs');
 
 const options = yargs
-    .option("v", {
-        alias: "v",
-        describe: "values for the ggt calculation",
-        type: "array",
+    .option('v', {
+        alias: 'v',
+        describe: 'values for the ggt calculation',
+        type: 'array',
         coerce: (arg) => arg.map(Number)
     })
-    .command("$0 [v..]", "values for ggt calculation")
+    .command('$0 [v..]', 'values for ggt calculation')
     .argv;
 
 console.log(calcGGT(options.v));
 
 function calcGGT(...values) {
-    values = values[0]
+    values = values[0];
     let ggt = values[0];
     for (const value of values) {
         ggt = ggT(ggt, value);
