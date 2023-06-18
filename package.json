@@ -5,6 +5,7 @@
   "description": "calculate the ggT of values via CLI",
   "main": "src/index.js",
   "scripts": {
+    "lint-fix": "npx eslint --fix src ; exit 0",
     "lint": "npx eslint src"
   },
   "repository": {
