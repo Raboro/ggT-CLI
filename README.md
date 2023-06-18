@@ -4,6 +4,19 @@ CLI tool to calculate ggT for multiple values
 
 ## Instruction guide
 
+#### If you install via npm: 
+1. Install package
+````bash
+$ npm i @raboro/ggt
+````
+2. Go inside node_modules/@raboro/ggt and link to use it globally
+````bash
+$ npm link
+````
+Then use it like below 
+
+#### If you install via cloning the repo:
+
 1. Install [node.js](https://nodejs.org/en/download/) with npm
 2. Clone code
 3. After collecting the source code load dependencies with 
