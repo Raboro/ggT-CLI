@@ -1,7 +1,10 @@
 # ggT-CLI
 
-CLI tool to calculate ggT for multiple values 
+[![npm downloads](https://img.shields.io/npm/dt/@raboro/ggt.svg)](https://www.npmjs.com/package/@raboro/ggt)
 
+
+CLI tool to calculate ggT for multiple values 
+c
 ## Instruction guide
 
 #### If you install via npm: 
